@@ -1,8 +1,8 @@
-nclude <stdio.h>
+#include <stdio.h>
 void fact() {
 	    int n, i;
 	        unsigned long long fact = 1;
-		    printf("Enter an integer: ");
+		    printf("\nEnter an integer: ");
 		        scanf("%d", &n);
 			    
 			         if (n < 0)

@@ -1,15 +1,15 @@
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 void bigof2()
 {
 	    int a, b, big;
-	        printf("Enter any two number: ");
+	        printf("\nEnter any two number: ");
 		    scanf("%d%d", &a, &b);
 		        if(a>b)
 				        big=a;
 			    else
 				            big=b;
-			        printf("\nBiggest of the two number is: %d", big);
-				    getch();
+			        printf("\nBiggest of the two number is: %d\n", big);
+//				    getch();
 //				        return 0;
 }
