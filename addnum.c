@@ -1,5 +1,5 @@
 #include <stdio.h>
-void add() {    
+void addnum() {    
 	    int number1, number2, sum;
 	        
 	        printf("Enter two integers: ");
@@ -7,6 +7,6 @@ void add() {
 		       //  calculating sum
 		         sum = number1 + number2;      
 			         
-			             printf("%d + %d = %d", number1, number2, sum);
+			             printf("%d + %d = %d\n", number1, number2, sum);
 			//                 rieturn 0;
 			                }
